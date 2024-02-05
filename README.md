@@ -2,7 +2,7 @@
 
 <h2>Instructions</h2>
 
-This activity is broken down into two deliverables, <a href='WeatherPy'>WeatherPy</a> and <a href='VacationPy'>VacationPy</a>.
+This activity is broken down into two deliverables, <a href='#WeatherPy'>WeatherPy</a> and <a href='#VacationPy'>VacationPy</a>.
 
 <a name='WeatherPy'><h3>Part 1: WeatherPy</h3></a>
 In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
