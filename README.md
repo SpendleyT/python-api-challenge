@@ -1,5 +1,15 @@
 # python-api-challenge
 
+<h2>Getting Started</h2>
+
+In the WeatherPy folder, create a file called <i>api_keys.py</i>. This file needs two entries:
+<ul>
+    <li>weather_api-key: '{YOUR KEY HERE}'</li>
+    <li>geoapify_key: '{YOUR KEY HERE}'</li>
+</ul>
+
+Generate your respective keys (Open Weather API and Geoapify) and update the file before opening the notebooks.
+
 <h2>Instructions</h2>
 
 This activity is broken down into two deliverables, <a href='#part-1-weatherpy'>WeatherPy</a> and <a href='#part-2-vacationpy'>VacationPy</a>.
@@ -14,13 +24,12 @@ To get started, the code required to generate random geographic coordinates and 
 <b>Requirement 1:</b> Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
 
-Latitude vs. Temperature
-
-Latitude vs. Humidity
-
-Latitude vs. Cloudiness
-
-Latitude vs. Wind Speed
+<ul>
+    <li>Latitude vs. Temperature</li>
+    <li>Latitude vs. Humidity</li>
+    <li>Latitude vs. Cloudiness</li>
+    <li>Latitude vs. Wind Speed</li>
+</ul>
 
 <b>Requirement 2:</b> Compute Linear Regression for Each Relationship
 To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
@@ -30,22 +39,16 @@ Next, create a series of scatter plots. Be sure to include the linear regression
 Sample scatter plot with the linear regression line.
 
 You should create the following plots:
-
-Northern Hemisphere: Temperature vs. Latitude
-
-Southern Hemisphere: Temperature vs. Latitude
-
-Northern Hemisphere: Humidity vs. Latitude
-
-Southern Hemisphere: Humidity vs. Latitude
-
-Northern Hemisphere: Cloudiness vs. Latitude
-
-Southern Hemisphere: Cloudiness vs. Latitude
-
-Northern Hemisphere: Wind Speed vs. Latitude
-
-Southern Hemisphere: Wind Speed vs. Latitude
+<ul>
+    <li>Northern Hemisphere: Temperature vs. Latitude</li>
+    <li>Southern Hemisphere: Temperature vs. Latitude</li>
+    <li>Northern Hemisphere: Humidity vs. Latitude</li>
+    <li>Southern Hemisphere: Humidity vs. Latitude</li>
+    <li>Northern Hemisphere: Cloudiness vs. Latitude</li>
+    <li>Southern Hemisphere: Cloudiness vs. Latitude</li>
+    <li>Northern Hemisphere: Wind Speed vs. Latitude</li>
+    <li>Southern Hemisphere: Wind Speed vs. Latitude</li>
+</ul>
 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
@@ -60,15 +63,12 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 
 Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-Humidity map
-
 Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
-
-A max temperature lower than 27 degrees but higher than 21
-
-Wind speed less than 4.5 m/s
-
-Zero cloudiness
+<ul>
+    <li>A max temperature lower than 27 degrees but higher than 21</li>
+    <li>Wind speed less than 4.5 m/s</li>
+    <li>Zero cloudiness</li>
+</ul>
 
 <b>NOTE:</b>
 Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
@@ -77,6 +77,4 @@ Create a new DataFrame called hotel_df to store the city, country, coordinates, 
 
 For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
 
-Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
-
-Hotel map
+Add the hotel name and the country as additional information in the hover message for each city on the map.
